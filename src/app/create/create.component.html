@@ -1,0 +1,11 @@
+
+
+<div class="left">
+  <p>Online Library system</p>
+  <input type="text" placeholder="name" #name>
+  <input type="text" placeholder="description" #description>
+  <input type="text" placeholder="count" #count>
+  <input type="text" placeholder="author" #author>
+
+  <button (click)="addTask(name.value,description.value,count.value,author.value)">Add a book</button>
+</div>
